@@ -7,8 +7,31 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: serif;
+	font-size: 12px;
 }
+
+.main-nav {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.main-nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: left;
+}
+
+nav ul li, nav ul li button {
+	font-family: serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
 
 button {
 	// background-color:
